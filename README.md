@@ -1,6 +1,6 @@
 # plotit-demo
 
-demo for Plotit.js
+demo for plotit
 
 ## Build Setup
 
