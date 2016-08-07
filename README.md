@@ -1,6 +1,6 @@
 # plotit-demo
 
-demo for plotit
+demo for plotit http://www.chen9.info/plotit-demo/app/
 
 ## Build Setup
 
