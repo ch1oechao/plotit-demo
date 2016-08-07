@@ -1,6 +1,5 @@
 .DS_Store
 node_modules/
-app/
 npm-debug.log
 selenium-debug.log
 test/unit/coverage
