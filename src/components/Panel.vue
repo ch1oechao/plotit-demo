@@ -10,6 +10,7 @@
       <button @click="resetImage">还原图片</button>
       <button @click="removeImage">移除图片</button>
       <div class="filter-btn-group">
+        <p>Filter</p>
         <button data-filter="moon" @click="renderFilter">Moon</button>
         <button data-filter="toaster" @click="renderFilter">Toaster</button>
         <button data-filter="_1977" @click="renderFilter">1977</button>
@@ -19,6 +20,7 @@
         <button data-filter="xpro2" @click="renderFilter">X-pro II</button>
         <button data-filter="lofi" @click="renderFilter">Lo-Fi</button>
       </div>
+      <p>Adjuster</p>
       <ul class="adjuster-input-group">
         <li class="adjuster-item">
           <span class="adjuster-label">brightness: </span><input type="range" data-adjuster="brightness" v-model="vBrightness" step="10" min="-50" max="50" />
@@ -150,6 +152,7 @@ button {
   color: #FFF;
   font-size: 14px;
   background-color: #FC5185;
+  cursor: pointer;
 }
 input[type="file"] {
   position: absolute;
@@ -186,6 +189,7 @@ input[type="file"] {
   padding: 5px 10px;
   color: #303841;
   background-color: #08D9D6;
+  cursor: pointer;
 }
 .filter-btn-group button:active {
   color: #FFF;
@@ -215,10 +219,7 @@ input[type=range] {
   -webkit-appearance: none;
   outline: none;
   border: none;
-
-  &:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
 }
 
 input[type=range]::-webkit-slider-thumb {
