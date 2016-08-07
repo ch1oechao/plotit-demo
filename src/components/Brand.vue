@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      msg: 'Plotit!'
+      msg: 'Plotit !'
     }
   }
 }
@@ -16,7 +16,8 @@ export default {
 
 <style scoped>
   .brand {
-    margin: 50px auto 20px;
+    margin: 30px auto 10px;
+    font-family: 'Lobster', cursive;
   }
   h1 {
     margin: 0;
