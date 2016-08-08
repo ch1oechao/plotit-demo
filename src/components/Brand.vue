@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      msg: 'Plotit !'
+      msg: 'PlotIt !'
     }
   }
 }
@@ -23,5 +23,7 @@ export default {
     margin: 0;
     padding: 0;
     color: #08D9D6;
+    font-size: 42px;
+    letter-spacing: .1em;
   }
 </style>

@@ -214,7 +214,7 @@ input[type=range] {
   top: -3px;
   width: 300px;
   background-color: #4D606E;
-  height: 1px;
+  height: .7em;
   vertical-align: 1px;
   -webkit-appearance: none;
   outline: none;
